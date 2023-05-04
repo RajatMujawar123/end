@@ -41,92 +41,456 @@
   ],
   "quiz": [
     {
-      "category": "Entertainment: Comics",
+      "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who is Batman?",
-      "correct_answer": "Bruce Wayne",
-      "incorrect_answers": ["Clark Kent", "Barry Allen", "Tony Stark"]
+      "question": "In the  Rossini opera, what was the name of &#039;The Barber of Seville&#039;?",
+      "correct_answer": "Figaro",
+      "incorrect_answers": ["Angelo", "Fernando", "Dave"]
     },
     {
-      "category": "Geography",
+      "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What European country is not a part of the EU?",
-      "correct_answer": "Norway",
-      "incorrect_answers": ["Lithuania", "Ireland", "Czechia"]
+      "question": "Who is the Pink Floyd song &quot;Shine On You Crazy Diamond&quot; written about?",
+      "correct_answer": "Syd Barrett",
+      "incorrect_answers": ["John Lennon", "David Gilmour", "Floyd"]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the fourth book of the Old Testament?",
+      "correct_answer": "Numbers",
+      "incorrect_answers": ["Genesis", "Exodus", "Leviticus"]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the pen name of novelist, Mary Ann Evans?",
+      "correct_answer": "George Eliot",
+      "incorrect_answers": [
+        "George Orwell",
+        "George Bernard Shaw",
+        "George Saunders"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What did the name of the Tor Anonymity Network orignially stand for?",
+      "correct_answer": "The Onion Router",
+      "incorrect_answers": [
+        "The Only Router",
+        "The Orange Router",
+        "The Ominous Router"
+      ]
     },
     {
       "category": "Entertainment: Video Games",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In the game series &quot;The Legend of Zelda&quot;, what was the first 3D game?",
-      "correct_answer": "Ocarina of Time",
+      "question": "Excluding their instructor, how many members of Class VII are there in the game &quot;Legend of Heroes: Trails of Cold Steel&quot;?",
+      "correct_answer": "9",
+      "incorrect_answers": ["6", "10", "3"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following buildings is example of a structure primarily built in the Art Deco architectural style?",
+      "correct_answer": "Niagara Mohawk Building",
       "incorrect_answers": [
-        "Majora&#039;s Mask",
-        "A Link to the Past",
-        "The Wind Waker"
+        "Taipei 101",
+        "One Detroit Center",
+        "Westendstrasse 1"
+      ]
+    },
+    {
+      "category": "Politics",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "The 2016 United States Presidential Election is the first time Hillary Clinton has run for President.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "There exists an island named &quot;Java&quot;.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In Mean Girls, who has breasts that tell when it&#039;s raining?",
+      "correct_answer": "Karen Smith",
+      "incorrect_answers": ["Gretchen Weiners", "Janice Ian", "Cady Heron"]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What does film maker Dan Bell typically focus his films on?",
+      "correct_answer": "Abandoned Buildings and Dead Malls",
+      "incorrect_answers": [
+        "Historic Landmarks",
+        "Action Films",
+        "Documentaries "
       ]
     },
     {
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "The 2005 video game &quot;Call of Duty 2: Big Red One&quot; is not available on PC.",
+      "question": "The main playable character of the 2015 RPG &quot;Undertale&quot; is a monster.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "DHCP stands for Dynamic Host Configuration Port.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the anime Black Butler, who is betrothed to be married to Ciel Phantomhive?",
+      "correct_answer": "Elizabeth Midford",
+      "incorrect_answers": [
+        "Rachel Phantomhive",
+        "Alexis Leon Midford",
+        "Angelina Dalles"
+      ]
+    },
+    {
+      "category": "Entertainment: Board Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "On a standard Monopoly board, how much do you have to pay for Tennessee Ave?",
+      "correct_answer": "$180",
+      "incorrect_answers": ["$200", "$160", "$220"]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which one of these rappers is NOT a member of the rap group Wu-Tang Clan?",
+      "correct_answer": "Dr.Dre",
+      "incorrect_answers": ["Ol&#039; Dirty Bastard", "GZA", "Method Man"]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In The Lord of the Rings: The Fellowship of the Ring, which one of the following characters from the book was left out of the film?",
+      "correct_answer": "Tom Bombadil",
+      "incorrect_answers": ["Strider", "Barliman Butterbur", "Celeborn"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In TF2 Lore, what are the names of the Heavy&#039;s younger sisters?",
+      "correct_answer": "Yana and Bronislava",
+      "incorrect_answers": [
+        "Gaba and Anna",
+        "Yanna and Gaba",
+        "Anna and Bronislava"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In the Panic! At the Disco&#039;s song &quot;Nothern Downpour&quot;, which lyric follows &#039;I know the world&#039;s a broken bone&#039;.",
+      "correct_answer": "&quot;So melt your headaches call it home&quot;",
+      "incorrect_answers": [
+        "&quot;So sing your song until you&#039;re home&quot;",
+        "&quot;So let them know they&#039;re on their own&quot;",
+        "&quot;So start a fire in their cold stone&quot;"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What do the video games No Man&rsquo;s Sky and Mighty No. 9 have in common?",
+      "correct_answer": "Both were announced in 2013.",
+      "incorrect_answers": [
+        "Both were crowdfunded.",
+        "Both were developed by indie studios.",
+        "Both were released for the PlayStation 3."
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The New York Times slogan is, &ldquo;All the News That&rsquo;s Fit to&hellip;&rdquo;",
+      "correct_answer": "Print",
+      "incorrect_answers": ["Digest", "Look", "Read"]
+    },
+    {
+      "category": "Animals",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "A caterpillar has more muscles than humans do.",
       "correct_answer": "True",
       "incorrect_answers": ["False"]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Art",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In PROTOTYPE 2, which of the following abilities/weapons is NOT obtained by an Evolved?",
-      "correct_answer": "Tendrils",
-      "incorrect_answers": ["Blade", "Bio-Bomb", "Pack Leader"]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "What direction does the Statue of Liberty face?",
-      "correct_answer": "Southeast",
-      "incorrect_answers": ["Southwest", "Northwest", "Northeast"]
-    },
-    {
-      "category": "History",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Who was the leader of the Communist Party of Yugoslavia ?",
-      "correct_answer": "Josip Broz Tito",
+      "question": "Which artist&#039;s style was to use small different colored dots to create a picture?",
+      "correct_answer": "Georges Seurat",
       "incorrect_answers": [
-        "Karadjordje Petrovic",
-        "Milos Obilic",
-        "Aleskandar Petrovic"
+        "Paul C&eacute;zanne",
+        "Vincent Van Gogh",
+        "Henri Rousseau"
       ]
     },
     {
-      "category": "Entertainment: Television",
+      "category": "Vehicles",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which of the following was not an actor/actress on the American television show &quot;Saturday Night Live&quot; in Season 42?",
-      "correct_answer": "Tina Fey",
-      "incorrect_answers": ["Mikey Day", "Kate McKinnon", "Sasheer Zamata"]
+      "difficulty": "easy",
+      "question": "Which car tire manufacturer is famous for its &quot;Eagle&quot; brand of tires, and is the official tire supplier of NASCAR?",
+      "correct_answer": "Goodyear",
+      "incorrect_answers": ["Pirelli", "Bridgestone", "Michelin"]
     },
     {
-      "category": "General Knowledge",
+      "category": "Entertainment: Film",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which American manufactured submachine gun was informally known by the American soldiers that used it as &quot;Grease Gun&quot;?",
-      "correct_answer": "M3",
-      "incorrect_answers": ["Colt 9mm", "Thompson", "MAC-10"]
+      "question": "Who voiced Metalbeard in &quot;The Lego Movie&quot;?",
+      "correct_answer": "Nick Offerman",
+      "incorrect_answers": ["Liam Neeson", "Morgan Freeman", "Will Arnet"]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the correct spelling of the protagonist of the book in The NeverEnding Story (1984)?",
+      "correct_answer": "Atreyu",
+      "incorrect_answers": ["Atrayu", "Atraiyu", "Atraeyu"]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Ellie Goulding&#039;s earliest album was named?",
+      "correct_answer": "Lights",
+      "incorrect_answers": ["Halcyon", "Bright Lights", "Halcyon Days"]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What model was the sports car gifted to Yuri Gagarin by the French government in 1965?",
+      "correct_answer": "Matra Djet",
+      "incorrect_answers": ["Porsche 911", "Alpine A110", "AC Cobra"]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "&quot;The Singing Cowboy&quot; Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
+      "correct_answer": "White Christmas",
+      "incorrect_answers": [
+        "Frosty the Snowman",
+        "Rudolph the Red-Nosed Reindeer",
+        "Here Comes Santa Claus"
+      ]
+    },
+    {
+      "category": "Politics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is centralism?",
+      "correct_answer": " Concentration of power and authority in a central organization.",
+      "incorrect_answers": [
+        "Conforming to one single common political agenda.",
+        "Remaining politically neutral.",
+        "The grey area in the spectrum of political left and right."
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of these people was NOT a founder of Apple Inc?",
+      "correct_answer": "Jonathan Ive",
+      "incorrect_answers": ["Steve Jobs", "Ronald Wayne", "Steve Wozniak"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the capital of Estonia?",
+      "correct_answer": "Tallinn",
+      "incorrect_answers": ["Helsinki", "Tartu", "Riga"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is the creator of Touhou project?",
+      "correct_answer": "Zun",
+      "incorrect_answers": ["Jun", "Twilight Frontier", "Tasofro"]
     },
     {
       "category": "Entertainment: Video Games",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of the following characters is NOT playable in &quot;Resident Evil 6&quot;?",
-      "correct_answer": "Jill Valentine",
-      "incorrect_answers": ["Chris Redfield", "Sherry Birkin", "Helena Harper"]
+      "question": "What is the name of the first level in &quot;Call of Duty: World at War&quot;?",
+      "correct_answer": "Semper Fi",
+      "incorrect_answers": ["Ring of Steel", "Vendetta", "Eviction"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In which &quot;Call of Duty&quot; game are the &quot;Apothicons&quot; introduced in the Zombies mode?",
+      "correct_answer": "Call Of Duty: Black Ops III",
+      "incorrect_answers": [
+        "Call Of Duty: Black Ops",
+        "Call Of Duty: World At War",
+        "Call Of Duty: Black Ops II"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who developed the 2016 farming RPG &quot;Stardew Valley&quot;?",
+      "correct_answer": "Eric Barone",
+      "incorrect_answers": ["Daisuke Amaya", "Jasper Byrne", "Lucas Pope"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Spoon theory is a theory, utilizing &quot;Spoons&quot; as a metaphor for energy they can use in a day.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the name given to layer 4 of the Open Systems Interconnection (ISO) model?",
+      "correct_answer": "Transport",
+      "incorrect_answers": ["Session", "Data link", "Network"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In Telltale Games&#039; &quot;The Walking Dead: Season One&quot; what is the name of Clementine&#039;s father?",
+      "correct_answer": "Ed",
+      "incorrect_answers": ["Charles", "Lee", "Walter"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the capital city of Slovenia?",
+      "correct_answer": "Ljubljana",
+      "incorrect_answers": ["Maribor", "Velenje", "Trbovlje"]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of the following films was directed by Ivan Reitman, written by Gary Ross, featured Kevin Kline, and was released in 1993?",
+      "correct_answer": "Dave",
+      "incorrect_answers": ["John", "Will", "Carl"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following was not developed by Bethesda?",
+      "correct_answer": "Fallout: New Vegas",
+      "incorrect_answers": [
+        "Fallout 3",
+        "The Elder Scrolls V: Skyrim",
+        "Fallout 4"
+      ]
+    },
+    {
+      "category": "Entertainment: Cartoon & Animations",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who voiced Finn in Adventure Time?",
+      "correct_answer": "Jeremy Shada",
+      "incorrect_answers": ["Nolan North", "John DiMaggio", "Tom Kenny"]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which boxer was famous for striking the gong in the introduction to J. Arthur Rank films?",
+      "correct_answer": "Bombardier Billy Wells",
+      "incorrect_answers": ["Freddie Mills", "Terry Spinks", "Don Cockell"]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The teapot often seen in many 3D modeling applications is called what?",
+      "correct_answer": "Utah Teapot",
+      "incorrect_answers": ["Pixar Teapot", "3D Teapot", "Tennessee Teapot"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many provinces are in the Netherlands?",
+      "correct_answer": "12",
+      "incorrect_answers": ["14", "10", "13"]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 2014, this new top 100 rapper who featured in &quot;Computers&quot; and &quot;Body Dance&quot; was arrested in a NYPD sting for murder.",
+      "correct_answer": "Bobby Shmurda",
+      "incorrect_answers": ["DJ Snake", "Swae Lee", "Young Thug"]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In JoJo&#039;s Bizarre Adventure, who says &quot;Yare yare daze&quot;?",
+      "correct_answer": "Jotaro Kujo",
+      "incorrect_answers": ["Joseph Joestar", "Jolyne Cujoh", "Koichi Hirose"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following was a map that was in Team Fortress 2 at launch?",
+      "correct_answer": "Gravel Pit",
+      "incorrect_answers": ["Hoodoo", "Gold Rush", "Upward"]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Is Tartu the capital of Estonia?",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
     }
   ]
 }
