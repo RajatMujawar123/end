@@ -4,7 +4,7 @@
       "id": 1,
       "brand": "Tata",
       "year": 2019,
-			"type":"Manual",
+      "type": "Manual",
       "kms": 10000,
       "Description": "Tata Altroz with all original documents",
       "Price": 500000
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "brand": "Tata",
-			"type":"AMT",
+      "type": "AMT",
       "year": 2017,
       "kms": 8000,
       "Description": "Tata Nexon with all original documents",
@@ -21,22 +21,112 @@
     {
       "id": 3,
       "brand": "Maruti",
-			"type":"AMT",
+      "type": "AMT",
       "year": 2018,
       "kms": 5000,
       "Description": "Swift with all original documents",
       "Price": 900000
     }
   ],
-"wishlisted_cars": [
+  "wishlisted_cars": [
     {
       "id": 1,
       "brand": "Tata",
       "year": 2019,
-			"type":"Manual",
+      "type": "Manual",
       "kms": 10000,
       "Description": "Tata Altroz with all original documents",
       "Price": 500000
+    }
+  ],
+  "results": [
+    {
+      "category": "Entertainment: Comics",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is Batman?",
+      "correct_answer": "Bruce Wayne",
+      "incorrect_answers": ["Clark Kent", "Barry Allen", "Tony Stark"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What European country is not a part of the EU?",
+      "correct_answer": "Norway",
+      "incorrect_answers": ["Lithuania", "Ireland", "Czechia"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the game series &quot;The Legend of Zelda&quot;, what was the first 3D game?",
+      "correct_answer": "Ocarina of Time",
+      "incorrect_answers": [
+        "Majora&#039;s Mask",
+        "A Link to the Past",
+        "The Wind Waker"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "The 2005 video game &quot;Call of Duty 2: Big Red One&quot; is not available on PC.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In PROTOTYPE 2, which of the following abilities/weapons is NOT obtained by an Evolved?",
+      "correct_answer": "Tendrils",
+      "incorrect_answers": ["Blade", "Bio-Bomb", "Pack Leader"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What direction does the Statue of Liberty face?",
+      "correct_answer": "Southeast",
+      "incorrect_answers": ["Southwest", "Northwest", "Northeast"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who was the leader of the Communist Party of Yugoslavia ?",
+      "correct_answer": "Josip Broz Tito",
+      "incorrect_answers": [
+        "Karadjordje Petrovic",
+        "Milos Obilic",
+        "Aleskandar Petrovic"
+      ]
+    },
+    {
+      "category": "Entertainment: Television",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following was not an actor/actress on the American television show &quot;Saturday Night Live&quot; in Season 42?",
+      "correct_answer": "Tina Fey",
+      "incorrect_answers": ["Mikey Day", "Kate McKinnon", "Sasheer Zamata"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which American manufactured submachine gun was informally known by the American soldiers that used it as &quot;Grease Gun&quot;?",
+      "correct_answer": "M3",
+      "incorrect_answers": ["Colt 9mm", "Thompson", "MAC-10"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following characters is NOT playable in &quot;Resident Evil 6&quot;?",
+      "correct_answer": "Jill Valentine",
+      "incorrect_answers": ["Chris Redfield", "Sherry Birkin", "Helena Harper"]
     }
   ]
 }
