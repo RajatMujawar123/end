@@ -514,5 +514,12 @@
       "slots": 1,
       "fee": 100
     }
+  ],
+  "users":[
+    {
+      "userName": "Rajat",
+      "email" : "rajat@gmail.com",
+      "password": "12345"
+    }
   ]
 }
